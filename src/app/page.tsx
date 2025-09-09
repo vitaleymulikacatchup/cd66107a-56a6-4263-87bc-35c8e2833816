@@ -6,7 +6,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
-import { DollarSign, Users, Chart } from 'lucide-react';
+import { DollarSign, Users } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -51,8 +51,7 @@ export default function Home() {
           description="A brief overview of our tokenomics and how you can participate in the growth of MemeWave"
           kpiItems={[
             { value: '100M', description: 'Total Supply', icon: DollarSign },
-            { value: '50%', description: 'Community Allocation', icon: Users },
-            { value: '20%', description: 'Development Fund', icon: Chart }
+            { value: '50%', description: 'Community Allocation', icon: Users }
           ]}
         />
       </div>
