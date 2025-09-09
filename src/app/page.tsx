@@ -49,9 +49,9 @@ export default function Home() {
           title="Tokenomics Overview"
           description="A brief overview of our tokenomics and how you can participate in the growth of MemeWave"
           kpiItems={[
-            { value: '100M', description: 'Total Supply', icon: 'DollarSign' },
-            { value: '50%', description: 'Community Allocation', icon: 'Users' },
-            { value: '20%', description: 'Development Fund', icon: 'Chart' }
+            { value: '100M', description: 'Total Supply', icon: DollarSign },
+            { value: '50%', description: 'Community Allocation', icon: Users },
+            { value: '20%', description: 'Development Fund', icon: Chart }
           ]}
         />
       </div>
