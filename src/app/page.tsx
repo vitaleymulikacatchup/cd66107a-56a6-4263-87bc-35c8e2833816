@@ -6,6 +6,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterBase from '@/components/footer/FooterBase';
+import { DollarSign, Users, Chart } from 'lucide-react';
 
 export default function Home() {
   return (
